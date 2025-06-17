@@ -15,7 +15,7 @@ defaultEnv: 0 // Basic environment
 accessible: true
 startSector: 0 // Default starting sector ID
 unlockedOnLand: [ corn ] // Unlock corn on first landing
-techTree: coreShard // Default tech tree starting point for Serpulo like planets
+// techTree: coreShard // REMOVED to avoid TechNode serialization error
 
 // Gameplay rules (can be adjusted later)
 allowWaves: true
