@@ -1,0 +1,29 @@
+type: Planet
+# localizedName and description will be handled by bundles
+
+parent: sun
+radius: 1.0
+orbitRadius: 12.0
+orbitTime: 360
+rotateTime: 24
+generator: SerpuloPlanetGenerator // Using Serpulo's generator as a base
+// meshLoader: { type: SphereMesh } // Keeping it simple, or allow default by omitting
+iconColor: "ffff00" // Yellow, like corn
+atmosphereColor: "a0c0ff" // Light blue
+hasAtmosphere: true
+defaultEnv: 0 // Basic environment
+accessible: true
+startSector: 0 // Default starting sector ID
+unlockedOnLand: [ corn ] // Unlock corn on first landing
+techTree: coreShard // Default tech tree starting point for Serpulo like planets
+
+// Gameplay rules (can be adjusted later)
+allowWaves: true
+allowSectorInvasion: true
+clearSectorOnLose: true // Common for campaign planets
+allowLaunchLoadout: true
+allowLaunchSchematics: true
+allowLaunchToNumbered: true // Allows launching to any numbered sector
+allowWaveSimulation: true
+enemyCoreSpawnReplace: false // Depends on desired gameplay
+prebuildBase: true // Standard core animation on landing

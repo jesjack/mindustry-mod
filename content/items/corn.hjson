@@ -1,0 +1,12 @@
+type: Item
+# localizedName and description will be handled by bundles
+# localizedName: Corn
+# description: A versatile agricultural product.
+
+color: "ffff00" // Yellow
+flammability: 0.1
+explosiveness: 0
+radioactivity: 0
+hardness: 1
+# buildable: false // Default is false, suitable if it's just a resource not directly used in construction
+# cost: 1 // Only if it's used in tech tree directly or has a build cost somewhere

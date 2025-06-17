@@ -1,0 +1,19 @@
+type: SectorPreset
+# localizedName and description will be handled by bundles
+
+planet: maizia
+sector: 0 // Corresponds to startSector in maizia.hjson
+difficulty: 0.1
+
+addStartingItems: true // This flag is important
+rules: {
+    loadout: [
+        { item: corn, amount: 200 }, // Our new corn resource
+        { item: copper, amount: 200 },
+        { item: lead, amount: 100 }
+    ]
+    // Other rule overrides can be placed here if needed, e.g.:
+    // waveTimer: false // Manually start waves
+    // waves: true
+    // unitCap: 50
+}
